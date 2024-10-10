@@ -1,10 +1,13 @@
 import Link from "next/link";
+import logo from "@/assets/logo.png"
 
 export default function MainHeader() {
   return (
     <>
       <header>
-        <Link href="/">Nextlevel Food</Link>
+        <Link href="/">
+          <img src={logo.src}></img>
+          Nextlevel Food</Link>
       </header>
 
       <nav>
